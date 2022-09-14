@@ -13,6 +13,7 @@ ul, li {
   margin: 0;
   padding-left: 0;
   padding-bottom: 0;
+  list-style: none;
 }
 :root {
   --primary-text-color: #ffffff;
@@ -785,6 +786,11 @@ transition: background-color 250ms var(--timing-function);
   line-height: 1.2;
   color: #757575;
 }
+.modal-label{
+  display: block;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
 .input-wrap {
 position: relative;
 
@@ -831,7 +837,7 @@ position: relative;
   resize: none;
   padding-left: 16px;
   padding-top: 12px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .check-text{
   display: flex;
