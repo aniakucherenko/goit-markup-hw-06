@@ -352,17 +352,19 @@ margin: 0;
   0px 3px 1px rgba(0, 0, 0, 0.1);
 }
 
-.portfolio.list {
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
+
 .portfolio-description {
   padding: 20px 24px;
   margin: 0 auto;
   border: 1px solid #EEEEEE;
   border-top: none;
 }
+
 .portfolio-link{
   transition: box-shadow 250ms var(--timing-function);
 }
@@ -511,8 +513,7 @@ margin-right: auto;
 .footer-item{
   margin-bottom: 9px;
 }
-.footer-socials{
-}
+
 .footer-soc-title{
 font-family: Roboto;
 color:#FFFFFF;
